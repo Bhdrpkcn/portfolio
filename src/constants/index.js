@@ -46,15 +46,15 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Architect",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Bass Guitarist",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Motorcyclist",
     icon: creator,
   },
 ];
@@ -116,55 +116,25 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
+    title: "Architect",
+    company_name: "Self-Employed",
     icon: shopify,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "2013 - 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Led over more than 200 architectural projects since 2013, including the establishment of my own business in 2017.",
+      "Transitioned from client-centric designs to exploring innovative architectural concepts amidst economic challenges.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    title: "Frontend Developper",
+    company_name: "Self-Directed",
+    icon: shopify,
+    iconBg: "#383E56",
+    date: "June 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Embarked on a journey to explore JavaScript and frontend technologies in June 2023.",
+      "Engaged in diverse web design and development projects since August 2023, fostering continuous learning and growth.",
     ],
   },
 ];
@@ -198,66 +168,108 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Stuff 1",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "stuff explanation will be here, must'nt be long also has to be clearify the main goal the project. May contain gif based video kind of a app usage.",
     tags: [
       {
-        name: "react",
+        name: "hashtag(techUsed) 1",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "hashtag(techUsed) 2",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
-        color: "pink-text-gradient",
+        name: "hashtag(techUsed) 3",
+        color: "orange-text-gradient",
       },
     ],
-    image: carrent,
+    image: "load image here",
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "Stuff 2",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "stuff explanation will be here, must'nt be long also has to be clearify the main goal the project. May contain gif based video kind of a app usage.",
     tags: [
       {
-        name: "react",
+        name: "hashtag(techUsed) 1",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "hashtag(techUsed) 2",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
-        color: "pink-text-gradient",
+        name: "hashtag(techUsed) 3",
+        color: "orange-text-gradient",
       },
     ],
-    image: jobit,
+    image: "load image here",
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "Stuff 3",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "stuff explanation will be here, must'nt be long also has to be clearify the main goal the project. May contain gif based video kind of a app usage.",
     tags: [
       {
-        name: "nextjs",
+        name: "hashtag(techUsed) 1",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "hashtag(techUsed) 2",
         color: "green-text-gradient",
       },
       {
-        name: "css",
-        color: "pink-text-gradient",
+        name: "hashtag(techUsed) 3",
+        color: "orange-text-gradient",
       },
     ],
-    image: tripguide,
+    image: "load image here",
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Stuff 4",
+    description:
+      "stuff explanation will be here, must'nt be long also has to be clearify the main goal the project. May contain gif based video kind of a app usage.",
+    tags: [
+      {
+        name: "hashtag(techUsed) 1",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "hashtag(techUsed) 2",
+        color: "green-text-gradient",
+      },
+      {
+        name: "hashtag(techUsed) 3",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: "load image here",
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Stuff 5",
+    description:
+      "stuff explanation will be here, must'nt be long also has to be clearify the main goal the project. May contain gif based video kind of a app usage.",
+    tags: [
+      {
+        name: "hashtag(techUsed) 1",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "hashtag(techUsed) 2",
+        color: "green-text-gradient",
+      },
+      {
+        name: "hashtag(techUsed) 3",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: "load image here",
     source_code_link: "https://github.com/",
   },
 ];
