@@ -1,4 +1,3 @@
-import React from "react";
 import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
 
@@ -40,17 +39,22 @@ const About = () => {
     <>
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview</h2>
+        <h2 className={styles.sectionHeadText}>Motivation</h2>
       </motion.div>
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        Lorem ipsum stuff ipsum lorem ipsum stuff ipsum lorem. Lipsum stuff
-        ipsum lorem, ipsum stuff ipsum lorem ipsum stuff ipsum lorem ipsum stuff
-        ipsum lorem ipsum stuff ipsum lorem ipsum stuff ipsum lorem ipsum stuff
-        ipsum lorem. ipsum stuff ipsum loremipsum stuff ipsum lorem.
+        Driven by a desire to escape the monotony of repetitive architectural
+        projects and disillusionment with unreliable contractors, I discovered a
+        passion for web development through Three.js, witnessing the potential
+        for creativity and interactivity in web design, I became determined to
+        explore the possibilities of front-end development. With a solid
+        foundation in design thinking, problem-solving, and project management
+        developed through my experience in architecture, I bring a unique
+        perspective and a various skill set to the field of front-end
+        development with presicion and creativity.{" "}
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

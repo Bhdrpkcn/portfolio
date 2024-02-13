@@ -1,7 +1,5 @@
 import { motion } from "framer-motion";
-
 import { styles } from "../styles";
-import { ComputersCanvas } from "./canvas";
 import { useEffect, useState } from "react";
 
 const Hero = () => {
@@ -67,7 +65,7 @@ const Hero = () => {
           <p className={`${styles.heroSubText} mt-4 text-white-100`}>
             <span
               className="txt-rotate"
-              dataPeriod="1000"
+              dataperiod="1000"
               data-rotate='[ "Architect", "Front-End Developer" ]'
             >
               <span className="wrap">{text}</span>
